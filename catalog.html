@@ -1,0 +1,1377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Каталог</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240220140947">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap&_v=20240220140947" rel="stylesheet">
+
+	<!-- mmenu -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.css?_v=20240220140947">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<div class="top-header__inner">
+						<div class="top-header__col top-header__col--1">
+							<a href="home.html" class="top-header__logo logo">
+								<img src="img/components/logo.svg" alt="logo">
+							</a>
+							<div class="top-header__location location">
+								<button type="button" class="location__button" data-popup="#popup-location">
+									<span>Москва</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="6" height="5" viewBox="0 0 6 5" fill="none">
+										<path d="M3.43301 4.69897C3.24056 5.03231 2.75944 5.03231 2.56699 4.69897L0.834937 1.69897C0.642487 1.36564 0.883049 0.948975 1.26795 0.948975L4.73205 0.948975C5.11695 0.948975 5.35751 1.36564 5.16506 1.69897L3.43301 4.69897Z" fill="#858FA4" />
+									</svg>
+								</button>
+							</div>
+						</div>
+						<div class="top-header__col top-header__col--2">
+							<div class="top-header__block top-header__cooperation cooperation" data-da=".mmenu__body,1280">
+								<a href="#" class="cooperation__dealers">Для дилеров</a>
+								<a href="#" class="cooperation__partner">Become a Partner</a>
+							</div>
+							<div class="top-header__block top-header__callback callback" data-da=".mmenu__body,1280">
+								<div class="callback__body">
+									<div class="callback__number-block">
+										<a href="tel:78000000000" class="callback__number">+7 (800) 000-00-00</a>
+										<span class="callback__location">МСК</span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="6" height="5" viewBox="0 0 6 5" fill="none">
+											<path d="M3.43301 4.25C3.24056 4.58333 2.75944 4.58333 2.56699 4.25L0.834937 1.25C0.642487 0.916667 0.883049 0.5 1.26795 0.5L4.73205 0.5C5.11695 0.5 5.35751 0.916667 5.16506 1.25L3.43301 4.25Z" fill="#858FA4" />
+										</svg>
+									</div>
+									<ul class="callback__numbers-list numbers-list">
+										<li class="numbers-list__item">
+											<a href="tel:78000000000" class="numbers-list__link">+7 (800) 000-00-00</a>
+											<span class="numbers-list__location">для Москвы</span>
+										</li>
+										<li class="numbers-list__item">
+											<a href="tel:78000000000" class="numbers-list__link">+7 (800) 000-00-00</a>
+											<span class="numbers-list__location">для регионов РФ</span>
+										</li>
+									</ul>
+								</div>
+
+								<button type="button" data-popup="#popup-callback" class="callback__button">Заказать
+									звонок</button>
+							</div>
+							<div class="top-header__block top-header__login login" data-da=".mmenu__body,1280">
+								<a href="#" class="login__link">
+									<span>Войти</span>
+									<svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+										<path d="M10 0.500977C4.47773 0.500977 0 4.97783 0 10.5005C0 16.0232 4.47729 20.5001 10 20.5001C15.5231 20.5001 20 16.0232 20 10.5005C20 4.97783 15.5231 0.500977 10 0.500977ZM10 3.49096C11.8273 3.49096 13.308 4.97212 13.308 6.79853C13.308 8.62537 11.8273 10.1061 10 10.1061C8.17359 10.1061 6.69288 8.62537 6.69288 6.79853C6.69288 4.97212 8.17359 3.49096 10 3.49096ZM9.9978 17.8857C8.17535 17.8857 6.50619 17.222 5.21875 16.1234C4.90512 15.8559 4.72415 15.4636 4.72415 15.0521C4.72415 13.1997 6.22332 11.7173 8.07608 11.7173H11.9248C13.778 11.7173 15.2715 13.1997 15.2715 15.0521C15.2715 15.4641 15.0914 15.8555 14.7773 16.123C13.4903 17.222 11.8207 17.8857 9.9978 17.8857Z" fill="#858FA4" fill-opacity="0.7" />
+									</svg>
+								</a>
+							</div>
+							<button type="button" class="icon-menu" id="qwe"><span></span></button>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<div class="body-header__inner">
+						<div class="body-header__col body-header__col--1">
+							<div class="body-header__navigation">
+								<a href="catalog.html" class="body-header__catalog-link button-1" data-da=".mmenu__body,1280">
+									<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+										<g clip-path="url(#clip0_24528_54)">
+											<path d="M3.33333 0H0.666667C0.298667 0 0 0.298667 0 0.666667V3.33333C0 3.70133 0.298667 4 0.666667 4H3.33333C3.70133 4 4 3.70133 4 3.33333V0.666667C4 0.298667 3.70133 0 3.33333 0Z" fill="white" />
+											<path d="M3.33333 6H0.666667C0.298667 6 0 6.29867 0 6.66667V9.33333C0 9.70133 0.298667 10 0.666667 10H3.33333C3.70133 10 4 9.70133 4 9.33333V6.66667C4 6.29867 3.70133 6 3.33333 6Z" fill="white" />
+											<path d="M3.33333 12H0.666667C0.298667 12 0 12.2987 0 12.6667V15.3333C0 15.7013 0.298667 16 0.666667 16H3.33333C3.70133 16 4 15.7013 4 15.3333V12.6667C4 12.2987 3.70133 12 3.33333 12Z" fill="white" />
+											<path d="M9.33333 0H6.66667C6.29867 0 6 0.298667 6 0.666667V3.33333C6 3.70133 6.29867 4 6.66667 4H9.33333C9.70133 4 10 3.70133 10 3.33333V0.666667C10 0.298667 9.70133 0 9.33333 0Z" fill="white" />
+											<path d="M9.33333 6H6.66667C6.29867 6 6 6.29867 6 6.66667V9.33333C6 9.70133 6.29867 10 6.66667 10H9.33333C9.70133 10 10 9.70133 10 9.33333V6.66667C10 6.29867 9.70133 6 9.33333 6Z" fill="white" />
+											<path d="M9.33333 12H6.66667C6.29867 12 6 12.2987 6 12.6667V15.3333C6 15.7013 6.29867 16 6.66667 16H9.33333C9.70133 16 10 15.7013 10 15.3333V12.6667C10 12.2987 9.70133 12 9.33333 12Z" fill="white" />
+											<path d="M15.3333 0H12.6667C12.2987 0 12 0.298667 12 0.666667V3.33333C12 3.70133 12.2987 4 12.6667 4H15.3333C15.7013 4 16 3.70133 16 3.33333V0.666667C16 0.298667 15.7013 0 15.3333 0Z" fill="white" />
+											<path d="M15.3333 6H12.6667C12.2987 6 12 6.29867 12 6.66667V9.33333C12 9.70133 12.2987 10 12.6667 10H15.3333C15.7013 10 16 9.70133 16 9.33333V6.66667C16 6.29867 15.7013 6 15.3333 6Z" fill="white" />
+											<path d="M15.3333 12H12.6667C12.2987 12 12 12.2987 12 12.6667V15.3333C12 15.7013 12.2987 16 12.6667 16H15.3333C15.7013 16 16 15.7013 16 15.3333V12.6667C16 12.2987 15.7013 12 15.3333 12Z" fill="white" />
+										</g>
+										<defs>
+											<clipPath id="clip0_24528_54">
+												<rect width="16" height="16" fill="white" />
+											</clipPath>
+										</defs>
+									</svg>
+									<span>Каталог</span>
+								</a>
+								<div class="body-header__search search" data-da=".top-header__col--2,1280,0">
+									<button type="button" class="search__button icon-search">
+										<svg xmlns="http://www.w3.org/2000/svg" width="22" height="21" viewBox="0 0 22 21" fill="none">
+											<g clip-path="url(#clip0_785_2149)">
+												<path d="M12.4471 18.105C10.5494 18.1046 8.70642 17.4694 7.21158 16.3004L2.51173 21L1 19.4883L5.69984 14.7888C4.53023 13.2938 3.89456 11.4505 3.8941 9.55249C3.8941 4.83686 7.73117 1 12.4471 1C17.1629 1 21 4.83686 21 9.55249C21 14.2681 17.1629 18.105 12.4471 18.105ZM12.4471 3.13812C8.90934 3.13812 6.03234 6.01497 6.03234 9.55249C6.03234 13.09 8.90934 15.9669 12.4471 15.9669C15.9848 15.9669 18.8618 13.09 18.8618 9.55249C18.8618 6.01497 15.9848 3.13812 12.4471 3.13812Z" fill="#858FA4" fill-opacity="0.7" />
+											</g>
+											<defs>
+												<clipPath id="clip0_785_2149">
+													<rect width="21.4276" height="20" fill="white" transform="translate(0 0.5)" />
+												</clipPath>
+											</defs>
+										</svg>
+									</button>
+									<div class="search__inner">
+										<div class="search__container">
+											<div class="search__header">
+												<form action="#" class="search__form form-search" method="POST">
+													<div type="submit" class="form-search__icon">
+														<svg xmlns="http://www.w3.org/2000/svg" width="22" height="20" viewBox="0 0 22 20" fill="none">
+															<g clip-path="url(#clip0_879_6342)">
+																<path d="M12.4471 17.605C10.5494 17.6046 8.70642 16.9694 7.21158 15.8004L2.51173 20.5L1 18.9883L5.69984 14.2888C4.53023 12.7938 3.89456 10.9505 3.8941 9.05249C3.8941 4.33686 7.73117 0.5 12.4471 0.5C17.1629 0.5 21 4.33686 21 9.05249C21 13.7681 17.1629 17.605 12.4471 17.605ZM12.4471 2.63812C8.90934 2.63812 6.03234 5.51497 6.03234 9.05249C6.03234 12.59 8.90934 15.4669 12.4471 15.4669C15.9848 15.4669 18.8618 12.59 18.8618 9.05249C18.8618 5.51497 15.9848 2.63812 12.4471 2.63812Z" fill="#858FA4" fill-opacity="0.7" />
+															</g>
+															<defs>
+																<clipPath id="clip0_879_6342">
+																	<rect width="21.4276" height="20" fill="white" />
+																</clipPath>
+															</defs>
+														</svg>
+													</div>
+													<input type="search" class="form-search__input" placeholder="Беговая дорожка">
+													<button type="button" class="form-search__button icon-search">
+														<img src="img/icons/cross.svg" alt="Очистить">
+													</button>
+												</form>
+											</div>
+											<div class="search__body">
+												<div class="search__result">
+													<div data-tabs class="search__tabs tabs-search">
+														<div class="search__filter">
+															<div class="search__finded">Найдено 53 товара</div>
+															<nav data-tabs-titles class="tabs-search__navigation">
+																<button type="button" class="tabs-search__title tab-button _tab-active">Для
+																	дома</button>
+																<button type="button" class="tabs-search__title tab-button">Для
+																	фитнес клубов</button>
+															</nav>
+														</div>
+														<div data-tabs-body class="tabs-search__content">
+															<div class="tabs-search__body">
+																<div class="search__slider swiper">
+																	<div class="search__wrapper swiper-wrapper">
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B39</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																	</div>
+																</div>
+															</div>
+															<div class="tabs-search__body">
+																<div class="search__slider swiper">
+																	<div class="search__wrapper swiper-wrapper">
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																		<div class="search__slide swiper-slide">
+																			<article class="product-catalog__card-product card-product">
+																				<div class="card-product__inner">
+																					<div class="card-product__header">
+																						<a href="#" class="card-product__image -ibg_contain">
+																							<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.png" alt="Изображение"></picture>
+																						</a>
+																					</div>
+																					<div class="card-product__content">
+																						<div class="card-product__body">
+																							<a href="#" class="card-product__product-link card-product__product-link--thin">Вертикальный
+																								велотренажер B37</a>
+																							<div class="card-product__characteristics characteristics">
+																								<ul class="characteristics__list">
+																									<li class="characteristics__item characteristics__item--rating">
+																										<div class="characteristics__parameter">
+																											Рейтинг</div>
+																										<div class="characteristics__value">
+																											<div class="rating rating_set">
+																												<div class="rating__body">
+																													<div class="rating__active" style="width: 72%;">
+																													</div>
+																													<div class="rating__items">
+																														<input type="radio" class="rating__item" value="1" name="rating">
+																														<input type="radio" class="rating__item" value="2" name="rating">
+																														<input type="radio" class="rating__item" value="3" name="rating">
+																														<input type="radio" class="rating__item" value="4" name="rating">
+																														<input type="radio" class="rating__item" value="5" name="rating">
+																													</div>
+																												</div>
+																												<div class="rating__value">
+																													3.6
+																												</div>
+																											</div>
+																										</div>
+																									</li>
+																								</ul>
+																							</div>
+																						</div>
+																						<div class="card-product__bottom">
+																							<div class="card-product__price price">
+																								<div class="price__current">
+																									1
+																									134 900 ₽</div>
+																							</div>
+																						</div>
+																					</div>
+																				</div>
+																			</article>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+													<!-- =========  -->
+													<div data-tabs class="search__tabs tabs-search">
+														<div class="search__filter">
+															<div class="search__finded">Найдено 12 статей</div>
+															<nav data-tabs-titles class="tabs-search__navigation">
+																<button type="button" class="tabs-search__title tab-button _tab-active">В
+																	новостях</button>
+																<button type="button" class="tabs-search__title tab-button">В
+																	блоге</button>
+															</nav>
+														</div>
+														<div data-tabs-body class="tabs-search__content">
+															<div class="tabs-search__body">
+																<ul class="tabs-search__list">
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Домашние велотренажеры</a>
+																		из раздела Новости
+																	</li>
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Домашние велотренажеры</a>
+																		из раздела Новости
+																	</li>
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Домашние велотренажеры</a>
+																		из раздела Новости
+																	</li>
+																</ul>
+															</div>
+															<div class="tabs-search__body">
+																<ul class="tabs-search__list">
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Велотренажеры</a> из раздела
+																		Блог
+																	</li>
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Велотренажеры</a> из раздела
+																		Блог
+																	</li>
+																	<li class="tabs-search__item">
+																		Название статьи <a href="#">Велотренажеры</a> из раздела
+																		Блог
+																	</li>
+
+																</ul>
+															</div>
+														</div>
+													</div>
+													<div class="search__btns-box">
+														<a href="#" class="button-1">Показать все результаты</a>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="body-header__menu menu">
+								<nav class="menu__body">
+									<ul class="menu__list" data-da=".mmenu__body,1280">
+										<li class="menu__item"><a href="#" class="menu__link">Бренды</a></li>
+										<li class="menu__item"><a href="#" class="menu__link menu__link--active">Сервис</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Поддержка</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">О компании</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Блог</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Где купить</a></li>
+										<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+									</ul>
+								</nav>
+							</div>
+							<div class="mmenu" id="menu">
+								<div class="mmenu__body">
+
+								</div>
+							</div>
+						</div>
+						<div class="body-header__col">
+							<div class="body-header__shop-nav shop-nav" data-da=".top-header__col--2,1280,1">
+								<ul class="shop-nav__list">
+									<li class="shop-nav__item">
+										<button type="button" class="shop-nav__button">
+											<img src="img/icons/comparison.svg" alt="Сравнение">
+											<div class="shop-nav__count">15</div>
+										</button>
+										<div class="shop-nav__spoller spoller-shop-nav">
+											<div class="spoller-shop-nav__body">
+												<ul class="spoller-shop-nav__list">
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+												</ul>
+												<div class="spoller-shop-nav__bottom">
+													<a href="#" class="button-1">Сравнить</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="shop-nav__item">
+										<button type="button" class="shop-nav__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="24" height="20" viewBox="0 0 24 20" fill="none">
+												<g opacity="0.7">
+													<path d="M22.0718 1.96031C19.4616 -0.649176 15.2154 -0.649176 12.6059 1.96031L11.9998 2.56606L11.394 1.96031C8.78455 -0.64953 4.53795 -0.64953 1.92847 1.96031C-0.628032 4.51681 -0.644633 8.56914 1.88997 11.3867C4.2017 13.9555 11.0196 19.5054 11.3089 19.7403C11.5053 19.9 11.7416 19.9777 11.9765 19.9777C11.9842 19.9777 11.992 19.9777 11.9994 19.9773C12.2424 19.9886 12.4872 19.9053 12.6899 19.7403C12.9792 19.5054 19.7979 13.9555 22.1103 11.3863C24.6445 8.56914 24.6279 4.51681 22.0718 1.96031ZM20.535 9.96889C18.7326 11.9712 13.7782 16.1009 11.9994 17.5663C10.2207 16.1013 5.26732 11.9719 3.46527 9.96925C1.69712 8.00401 1.68052 5.20521 3.42677 3.45896C4.31861 2.56747 5.48984 2.12137 6.66107 2.12137C7.8323 2.12137 9.00354 2.56711 9.89538 3.45896L11.2277 4.79125C11.3863 4.94984 11.5862 5.0445 11.796 5.0777C12.1365 5.15081 12.5059 5.0558 12.7708 4.7916L14.1038 3.45896C15.8879 1.67562 18.7898 1.67598 20.5728 3.45896C22.319 5.20521 22.3024 8.00401 20.535 9.96889Z" fill="white" />
+												</g>
+											</svg>
+											<div class="shop-nav__count">15</div>
+										</button>
+										<div class="shop-nav__spoller spoller-shop-nav">
+											<div class="spoller-shop-nav__body">
+												<ul class="spoller-shop-nav__list">
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+												</ul>
+												<div class="spoller-shop-nav__bottom">
+													<a href="#" class="button-1">Перейти в избранное</a>
+												</div>
+											</div>
+										</div>
+									</li>
+									<li class="shop-nav__item">
+										<button type="button" class="shop-nav__button">
+											<svg xmlns="http://www.w3.org/2000/svg" width="21" height="26" viewBox="0 0 21 26" fill="none">
+												<g opacity="0.7">
+													<path d="M0.9 7.73325H20.1V21.4999C20.1 23.212 18.7121 24.5999 17 24.5999H4C2.28792 24.5999 0.9 23.212 0.9 21.4999V7.73325Z" stroke="white" stroke-width="1.8" />
+													<path d="M5.83464 12.6667L5.83464 5.00008C5.83464 2.79095 7.6255 1.00008 9.83464 1.00008H11.168C13.3771 1.00008 15.168 2.79094 15.168 5.00008L15.168 12.6667" stroke="white" stroke-width="1.8" />
+												</g>
+											</svg>
+											<div class="shop-nav__count">1</div>
+										</button>
+										<div class="shop-nav__spoller spoller-shop-nav">
+											<div class="spoller-shop-nav__body">
+												<ul class="spoller-shop-nav__list">
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+													<li class="spoller-shop-nav__item item-spoller-shop-nav">
+														<div class="item-spoller-shop-nav__content">
+															<a href="#" class="item-spoller-shop-nav__image -ibg_cover">
+																<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.png" alt="изображение"></picture>
+															</a>
+															<div class="item-spoller-shop-nav__text-content">
+																<a href="#" class="item-spoller-shop-nav__title">Вертикальный
+																	Велотренажер
+																	СardioPower B37</a>
+																<div class="item-spoller-shop-nav__price">34 000 ₽</div>
+															</div>
+														</div>
+														<div class="item-spoller-shop-nav__actions">
+															<button type="button" class="item-spoller-shop-nav__btn-delete">
+																<svg xmlns="http://www.w3.org/2000/svg" width="17" height="16" viewBox="0 0 17 16" fill="none">
+																	<path d="M11.7296 5.57572L9.30563 7.99992L11.7296 10.424C12.0901 10.7847 12.0901 11.369 11.7296 11.7297C11.5494 11.9098 11.3133 12 11.0772 12C10.8407 12 10.6045 11.91 10.4245 11.7297L8.00001 9.30529L5.57571 11.7296C5.39559 11.9098 5.15938 11.9999 4.9231 11.9999C4.68689 11.9999 4.45084 11.9099 4.27055 11.7296C3.91 11.3691 3.91 10.7848 4.27055 10.424L6.69444 7.9999L4.27041 5.57572C3.90986 5.21516 3.90986 4.63076 4.27041 4.27021C4.6309 3.90993 5.21496 3.90993 5.57558 4.27021L7.99999 6.69442L10.4242 4.27021C10.7849 3.90993 11.369 3.90993 11.7294 4.27021C12.0901 4.63076 12.0901 5.21516 11.7296 5.57572Z" fill="#858FA4" />
+																</svg>
+															</button>
+														</div>
+													</li>
+												</ul>
+												<div class="spoller-shop-nav__bottom">
+													<a href="#" class="button-1">Оформить заказ</a>
+													<span class="spoller-shop-nav__total-price">Итого 68 000 ₽</span>
+												</div>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__inner">
+						<nav class="bottom-header__main-category main-category-bottom-header">
+							<ul class="main-category-bottom-header__list">
+								<li class="main-category-bottom-header__item">
+									<a href="#" class="main-category-bottom-header__link">
+										<span>Для дома</span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="6" height="4" viewBox="0 0 6 4" fill="none">
+											<path d="M3.43301 3.75C3.24056 4.08333 2.75944 4.08333 2.56699 3.75L0.834937 0.75C0.642487 0.416667 0.883049 0 1.26795 0L4.73205 0C5.11695 0 5.35751 0.416667 5.16506 0.75L3.43301 3.75Z" fill="white" fill-opacity="0.7" />
+										</svg>
+									</a>
+								</li>
+								<li class="main-category-bottom-header__item _active">
+									<a href="#" class="main-category-bottom-header__link">
+										<span>Для фитнес клуба</span>
+										<svg xmlns="http://www.w3.org/2000/svg" width="6" height="4" viewBox="0 0 6 4" fill="none">
+											<path d="M3.43301 3.75C3.24056 4.08333 2.75944 4.08333 2.56699 3.75L0.834937 0.75C0.642487 0.416667 0.883049 0 1.26795 0L4.73205 0C5.11695 0 5.35751 0.416667 5.16506 0.75L3.43301 3.75Z" fill="white" fill-opacity="0.7" />
+										</svg>
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="page__catalog catalog">
+				<div class="catalog__inner">
+					<div class="catalog__header section-header">
+						<div class="section-header__container">
+							<div class="section-header__inner">
+								<div class="section-header__row">
+									<nav class="section-header__breadcrumb breadcrumb" aria-label="breadcrumb">
+										<div class="breadcrumb__icon">
+											<svg xmlns="http://www.w3.org/2000/svg" width="15" height="16" viewBox="0 0 15 16" fill="none">
+												<path d="M14.6896 7.87711L7.87425 0.664272C7.82518 0.612198 7.76689 0.570885 7.70273 0.542697C7.63856 0.514509 7.56978 0.5 7.50031 0.5C7.43084 0.5 7.36206 0.514509 7.29789 0.542697C7.23373 0.570885 7.17544 0.612198 7.12637 0.664272L0.311065 7.87711C0.112513 8.08739 0 8.37303 0 8.67094C0 9.28953 0.474871 9.79247 1.05895 9.79247H1.77704V14.9392C1.77704 15.2494 2.01365 15.5 2.30652 15.5H6.44136V11.5746H8.29452V15.5H12.6941C12.987 15.5 13.2236 15.2494 13.2236 14.9392V9.79247H13.9417C14.223 9.79247 14.4927 9.67506 14.6912 9.46302C15.1032 9.02492 15.1032 8.3152 14.6896 7.87711Z" fill="#B9C0CF" />
+											</svg>
+										</div>
+										<ul class="breadcrumb__list">
+											<li class="breadcrumb__item"><a href="#" class="breadcrumb__link">Для фитнес
+													клубов</a></li>
+											<li class="breadcrumb__item breadcrumb__item--active"><a href="#" class="breadcrumb__link">Кардиотренажёры</a>
+											</li>
+										</ul>
+									</nav>
+								</div>
+								<div class="section-header__row">
+									<h2 class="section-header__title h2-title">Тренажеры для дома</h2>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="catalog__container">
+						<div class="catalog__body">
+							<div class="catalog__card card-catalog">
+								<a href="product-catalog.html" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="catalog__card card-catalog">
+								<a href="#" class="card-catalog__image -ibg">
+									<picture><source srcset="img/catalog/01.webp" type="image/webp"><img src="img/catalog/01.jpg" alt="Изображение"></picture>
+								</a>
+								<div class="card-catalog__content">
+									<h4 class="card-catalog__name title-h4">Кардиотренажеры</h4>
+									<ul class="card-catalog__list">
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+										<li class="card-catalog__item">
+											<a href="#" class="card-catalog__link">Беговые дорожки <span class="card-catalog__quantity">22</span></a>
+										</li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240220140947"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/9.3.0/mmenu.min.js?_v=20240220140947"></script>
+</body>
+
+</html>
